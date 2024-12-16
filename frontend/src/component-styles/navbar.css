@@ -3,18 +3,22 @@
     display: flex;
     flex-direction: row;
     width: fit-content;
-    background-color: #0d1117;
+    background-color: rgb(210, 210, 215);
     justify-content: center;
     border-radius: 5px;
     gap: 7.5px;
+    margin-top: 4vh;
   }
   
   .value {
+    text-decoration: none;
     background-color: transparent;
     border: none;
     padding: 10px;
-    color: white;
+    color: black;
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     gap: 5px;
     cursor: pointer;
@@ -24,12 +28,12 @@
   
   .value:not(:active):hover,
   .value:focus {
-    background-color: #21262c;
+    background-color: rgb(132, 132, 135);
   }
   
   .value:focus,
   .value:active {
-    background-color: #1a1f24;
+    background-color: rgb(132, 132, 135);
     outline: none;
   }
   
@@ -50,7 +54,5 @@
     opacity: 1;
   }
   
-  .value svg {
-    width: 15px;
-  }
+
   
