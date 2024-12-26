@@ -1,0 +1,17 @@
+.experienceTab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: rgb(255, 255, 255);
+    height: 20vh;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+.experienceImg{
+    height: 10vh;
+    width: 10vw;
+}
